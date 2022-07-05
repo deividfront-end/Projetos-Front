@@ -5,39 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-*COMPATIVEL COM A TELA DO DISPOSITIVO-*>
     <meta name="Keywords" content="Gerador de senhas, gerador password">
-    <title>Gerador de senha</title> <!-* TITULO DA ABA DA PAGINA DO NAVEGADOR-*>
+    <title>Minha primeira página</title> <!-* TITULO DA ABA DA PAGINA DO NAVEGADOR-*>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <img class="logo" src="assets/logo.png" " alt="logo Gerador de senha">
-    <main class="container-input"></main>
-    <span>Tamanho <span id="valor"></span>caracteres</span>
-    <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
-
-    <button id="button" class="button-cta">Gerar senha</button>
-</main>
-    <div id="container-password" class="container-password hide">
-        <span class="title">Sua senha  gerada foi:</span>
-        <spam id="password" class="password">1231231323132</spam>
-        <span class="tooltip">Clique na senha para copiar👆</span
-
-    </div>
-
-        
-    
-
-
-
-<footer>
-
-
-</footer>
-
-
-
-  <script src="script.js"></script>  
-</body>
-</html>
+    <header> <!--criando um cabeçalho para nossa página com um menu-->
+        <h2>Minha Página</h2>
+        <nav><!--vamos criar um menu utilizando listas-->
+          <ul>
+            <li>Home</li>
+            <li>Meu menu</li>
+          </ul>
+        </nav><!--aqui finaliza o meu menu-->
+      </header>
+      <main>   
+        <section> <!--vamos criar a primeira section do meu documento-->
+          <article>
+            <h3>Titulo do meu artigo</h3>
+            <p>Conteúdo do meu artigo</p>
+            <p>Mais conteúdo para o meu artigo</p>
+            <ol> <!--vamos criar uma lista ordenada-->
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+            </ol>
+          </article><!-- aqui finaliza meu primeiro artigo da section-->
+          <article>
+            <h3>Título do meu segundo artigo</h3>
+            <p>Conteúdo do meu segundo artigo</p>
+            <p>Mais conteúdo para o meu segundo artigo</p>     
+          </article> <!--aqui finaliza meu segundo artigo da section-->
+      </section><!--aqui encerra a primeira section do meu documento-->
+      </main><!--aqui finaliza todo conteúdo principal do corpo da página-->
+      
+      <aside>
+        <h4>Conteúdos relacionados</h4>
+        <ul>
+          <li>Página oficial da <a href="https://www.dio.me/sign-in/">Dio</a></li>
+          <li>item da lista</li>
+          <li>item da lista</li>
+        </ul>
+      </aside>
+      
+      <footer>
+        <div><!--criando uma divisão para meu rodapé-->
+         <p>Inscreva-se para receber notícias</p>
+         <form method="post">
+            <input type="text" name="nome" placeholder="Digite seu Nome">
+            <input type="email" name="email" placeholder="Digite seu Email">
+            <input type="submit" name="enviar" value="Enviar">
+          </form>
+         </div>
+        <div><!--criando outra para meu rodapé-->
+          <h3>Minha primeira página html</h3>
+          <span>Todos os direitos reservados</span>
+        </div>
+      </footer>
+      
+      <script>
+        //AQUI VAI NOSSO CÓDIGO DE SCRIPT (JAVASCRIPT)
+      </script>
+      
+      </body>
+      </html>
+      
