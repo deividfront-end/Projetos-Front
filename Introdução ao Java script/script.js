@@ -53,3 +53,60 @@ console.log(frutas[1].nome);
 
 //console.log(lista[3]);
 alert(lista[3]);
+
+//comando if else e while 
+var idade = 18;
+if (idade >= 18){
+    alert("maior de idade")
+}
+//prompt faz o usuario digitar sua idade
+var idade = prompt("Digite sua idade")
+if (idade >= 18){
+    alert("maior de idade")
+
+}else{
+    alert("Menor de idade");
+}
+//estrutura de repetição com o while
+var count = 0;
+while(count <= 5){
+    console.log(count);
+    alert(count);
+    count++;  
+}
+//estrutura de repetição com for
+var count;
+for(count=0; count <=5; count++)
+alert(count);
+
+//utilizando date 
+var d = new Date();
+alert(d);
+alert(d.getDay());
+alert(d.getHours());
+alert(d.getMinutes());
+
+//funcões
+function soma(n1, n2){
+    return n1 + n2;
+}
+alert(soma(5, 10));
+
+function clicou(){
+    //alert("obrigado por clicar");
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"
+    
+}
+
+function redirecionar(){
+    //alert("obrigado por clicar");
+   window.open("https://globallabs.academy/");
+    window.location.href = ("https://www.google.com/");
+}
+
+function trocar(){
+   // alert("trocar texto");
+    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse aqui";
+    document.getElementById("mousemove2").innerHTML = "obrigado por ";
+    MediaElementAudioSourceNode.innerHTML ="passe o moussss";
+}   
