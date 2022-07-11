@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:14px ;
+    background-size:cover;
+    
+}
+
+body{
+    font-family: 'Russo One', sans-serif;
+    background-image: url(/img/fundo.jpg)
+    
+
+    
+     
+
+}
+
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Russo One', sans-serif;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    font-size:100px ;
+    margin-top:250px;
+    text-size-adjust: 100px;
+ 
+}
+.titulo2{
+    display: flex;
+    font-family: 'Russo One', sans-serif;
+    font-size: 90px;
+    margin-left: 110px;
+    margin-top: -30px;
+    
+}
+
+.logo-black{
+    display: flex;
+    flex-direction: row;
+    margin-left: 580px;
+    margin-top:-300px ;
+    width: 300px;
+    text-align:100px ;
+
+}
+
+.atletaimg{
+
+    display: flex;
+    margin-left: -350px;
+    margin-top:-380px ;
+    width: 350px;
+    text-align:100px ;
+    height: 500px;
+
+}
+
+.nome-fonte{
+    
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 660px;
+    margin-top: -95px;
+    background-color: black;
+
+}
+
+
+.box-name{
+    display: flex;
+    margin-left: -325px;
+    margin-top:30px ;
+    align-items: center;
+    text-align:100px ;
+    height: 1px;
+    
+}
+
+
+.container-bandeira{
+
+    display: flex;
+    align-content: center;
+    width: 80px;
+    height: 100px;
+
+    margin-left:600px ;
+    margin-top: -106px;
+}
+
+.container-categoria{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 280px;
+    background-color: none ;
+    
+    
+    background-color: rgb(34, 32, 32) ;
+    
+    font-size: 20px;
+    color: white;
+    opacity:0.8 ;
+
+
+    margin-left:820px ;
+    margin-top: -306px;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    
+    
+
+}
+.descricao{
+    
+    font-family: 'Russo One', sans-serif;
+    color: rgb(252, 249, 249);
+    font-size: 20px;
+    margin-left: -1px;
+    margin-top: -9px;
+   background-color: red;
+
+}
