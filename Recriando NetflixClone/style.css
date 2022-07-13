@@ -1,0 +1,91 @@
+:root{
+
+--vermelho:#E50914;
+--preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos Base*/
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color:var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+header nav a{
+
+    margin: 10px;
+    text-decoration: none;
+    color: #AAA;
+  
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background-image: url('/img/house_of_cards_divulgacao.jpg');
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal .descricao{
+
+    margin-bottom: 40px;
+    margin-left: 15px;
+
+}
+
+.titulo{
+    margin-top: -200px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.botoes{
+    margin-top:-20px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
