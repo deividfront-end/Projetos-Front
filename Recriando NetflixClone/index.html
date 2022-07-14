@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloneFlix</title>
-    <link rel="stylesheet" href="style.css">
-    
+
+    <!--Owl css linkados-->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <link rel="stylesheet" href="/owl.carousel.min.css">
+    <link rel="stylesheet" href="/owl.theme.default.min.css">
+
+
 </head>
 <body>
     <header>
         <div class="container">
             <h2 class="logo">CLONEFLIX</h2>
-            
-            <nav>
+        
+            <nav CLASS="categorias">
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
@@ -27,26 +33,59 @@
     
     <main>
         <div class="filme-principal">
-            <div class="Container">
+            <div class="container">
                 <h3 class="titulo">HOUSE OF CARDS</h3>
-                <p class="descricao">Assista logo essa bagaça asuhduashdua é bom!<br>Nada pode impedir um político sem escrúpulos.</p>
-
+                <p class="descricao">Assista, imperdível, eu recomendo! Nada pode impedir um político sem escrúpulos.</p>
+            
             <div class="botoes">
-                <button role="button" class="botao">
+                <button role="button" class="botoes">
+                    
+                    <i class="fa-solid fa-play"></i>
                 ASSISTIR AGORA
                 </button>
 
-                <button role="button" class="botao">
+                <button role="button" class="botoes">
+                    <i class="fa-solid fa-circle-info"></i>
                 MAIS INFORMAÇÕES
                 </button>
+            
             </div>
             </div>
-
-
-
         </div>
+    </main>
+                                    <!--Jquery menu carousel filmes fotos-->
 
+            <div class="carrosel-filmes">
+                <div class="owl-carousel owl-theme">
 
+                    <div class="item">
+                        <img  class="box-filme" src="img/25aPHMlZNP5F3fgxUo4XB7xUVz7.jpg"alt="item1" srcset="">
+                    </div>
+
+                    <div class="item">
+                        <img  class="box-filme" src="img/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg"alt="item1" srcset="">
+                    </div>
+
+                    <div class="item">
+                        <img  class="box-filme" src="img/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg"alt="item1" srcset="">
+                    </div>
+
+                    <div class="item">
+                        <img  class="box-filme" src="img/eO0QV5qJaEngP1Ax9w3eV6bJG2f.jpg"alt="item1" srcset="">
+                    </div>
+
+                    <div class="item">
+                        <img  class="box-filme" src="img/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg"alt="item1" srcset="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+        <script src="https://kit.fontawesome.com/58f1291ecc.js"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/main.js"></script>
     </main>
 </body>
 </html>

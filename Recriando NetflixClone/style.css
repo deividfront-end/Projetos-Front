@@ -5,48 +5,43 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+   
+    padding: 0%;
     box-sizing: border-box;
 }
 /*Elementos Base*/
+
 body{
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-header .container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 
-    
-}
 
 header .logo{
-    margin-left: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
     color:var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 header nav a{
-
-    margin: 10px;
-    text-decoration: none;
-    color: #AAA;
+    display: flex;
+    color:#AAA;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
   
 }
 
 header nav a:hover{
-    color:#fff;
+    color:rgb(255, 255, 255);
 }
 
 /*Filme principal*/
 
 .filme-principal{
-    font-size: 16px;
+    
     background-image: url('/img/house_of_cards_divulgacao.jpg');
     height: 500px;
     background-size: cover;
@@ -60,32 +55,67 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-
+    margin-top: 15px;
     margin-bottom: 40px;
     margin-left: 15px;
 
 }
 
 .titulo{
-    margin-top: -200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .botoes{
+   
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+
+
     margin-top:-20px;
-    margin-left: 15px;
+    margin-left: 1px;
+}
+
+.botoes:hover{
+
+ 
+    color: #e2d6d6;
 }
 
 
+.botoes i{
+    margin-right: 5px;
+}
 
 
+.owl-carousel owl-theme{
+width: -20px;
+display: flex;
+justify-items: center;
+width: 50%;
+
+}
 
 
+.filme-principal .container{
+    width: 50%;
 
+       
+}
 
-
-
-
-
-
+/* Categorias ok menu nav ok*/
+.categorias{
+    width: 500px;
+    margin-top: -70px;
+    margin-left:580px ;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    color:#AAA;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
