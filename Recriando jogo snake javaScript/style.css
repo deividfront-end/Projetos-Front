@@ -1,0 +1,36 @@
+
+
+
+body{
+background-size:200px;
+background-image: url(/img/pexels-jan-kopřiva-3281127.jpg);
+height: 95vh;
+width: 95;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color:rgb(113, 10, 247);
+}
+
+
+
+.canvas{
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+    border-style: double;
+    border-color: rgb(99, 8, 245);
+    
+}
+
+
+.titulo{
+    border-style: double;
+    width: 512px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    
+}
