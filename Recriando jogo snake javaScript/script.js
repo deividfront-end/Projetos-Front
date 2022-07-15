@@ -33,7 +33,8 @@ function criarBG(){
 
 function criarCobrinha(){
     for(i=0; i < snake.length; i++){
-        context.fillStyle = "gray";
+       
+        context.fillStyle = "rgb(240, 177, 3)";
         context.fillRect(snake[i].x, snake[i].y, box, box);
 
     }
@@ -41,8 +42,8 @@ function criarCobrinha(){
 
 
 function drawFood(){
-    context.fillStyle = "red";
-    context.fillRect(food.x, food.y, box, box);
+    context.fillStyle = "white";
+     context.fillRect(food.x, food.y, box, box);
 
 }
 

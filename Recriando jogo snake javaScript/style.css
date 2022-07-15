@@ -5,30 +5,32 @@ body{
 background-size:200px;
 background-image: url(/img/pexels-jan-kopřiva-3281127.jpg);
 height: 95vh;
-width: 95;
+margin-left: 40px;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-color:rgb(113, 10, 247);
+color:rgb(240, 177, 3);
 }
 
 .canvas{
     display: flex;
-    margin-top: -60px;
+    margin-top: -40px;
     justify-content: center;
     border-style: double;
-    border-color: rgb(99, 8, 245);
+    border-color: rgb(240, 177, 3);
     
 }
 
 
 .titulo{
     border-style: double;
+   color: black;
     width: 512px;
     text-align: center;
-    background-color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 196, 0);
+
+    font-family: 'Russo One', sans-serif;
     font-size: 80px;
     
 }
