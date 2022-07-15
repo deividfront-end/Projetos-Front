@@ -10,8 +10,8 @@ let context = canvas.getContext("2d");
 let box = 32;
 let snake = [];
 snake[0] = {
-x: 8 * box,
-y: 8 * box
+x: 1 * box,
+y: 1 * box
 
 }
 let direction ="right";
