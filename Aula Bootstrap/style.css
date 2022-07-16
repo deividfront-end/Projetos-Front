@@ -1,0 +1,62 @@
+
+body{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.icone{
+margin-left: 50px;
+width: 100px;
+height: 100px;
+
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-left:150px;
+    text-align: center;
+    
+    
+}
+
+.nav-link:hover{
+    
+    
+    opacity: 0.9;
+    color:rgb(148, 10, 113);
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.quem-somos{
+    color: white;
+  background-color: rgb(235, 25, 207);
+
+}
+
+.servicos{
+
+    background-color: rgb(92, 5, 255);
+    color: white;
+}
+
+
+
+.margin{
+
+    padding-bottom: 50px;
+    padding-top:30px ;
+}
+
+.bg-footer{
+
+    background-color: black;
+    color:white;
+}
